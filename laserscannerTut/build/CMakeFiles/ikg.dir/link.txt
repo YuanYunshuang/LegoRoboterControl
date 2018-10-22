@@ -1,0 +1,2 @@
+/usr/bin/ar qc libikg.a  CMakeFiles/ikg.dir/src/StructsAndMore.cpp.o
+/usr/bin/ranlib libikg.a

@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+project(laserscannerTut) 
+add_definitions(-std=c++11)
+find_package(OpenCV REQUIRED )
+include_directories(include ${OpenCV_INCLUDE_DIRS} )
+link_directories(${OpenCV_LIBRARY_DIRS} )
+add_library(ikg  src/StructsAndMore.cpp)
+add_library(c++Tutorium src/Sensor.cpp src/Parkour.cpp src/Robot.cpp src/ScanAnalyzer.cpp)
+target_link_libraries (c++Tutorium  ${OpenCV_LIBRARIES}  )
+add_executable (main src/main.cpp)
+target_link_libraries (main c++Tutorium ${OpenCV_LIBRARIES} ikg)
+

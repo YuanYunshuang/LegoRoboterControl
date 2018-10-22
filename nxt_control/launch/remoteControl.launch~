@@ -1,0 +1,7 @@
+<launch>
+<node pkg="ps3Joy" type="ps3joy.py" name="ps3JoyConnect" output="screen"/>
+<node pkg="joy" type="joy_node" name="ps3_joy" respawm="true" output="screen">
+<param name="dev" type="string" value="/dev/input/js0"/>
+<param name="deadzone" calue="0.12"/>
+</node>
+</launch>

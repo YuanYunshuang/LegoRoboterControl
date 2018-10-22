@@ -1,0 +1,2 @@
+/usr/bin/ar qc libc++Tutorium.a  CMakeFiles/c++Tutorium.dir/src/Sensor.cpp.o CMakeFiles/c++Tutorium.dir/src/Parkour.cpp.o CMakeFiles/c++Tutorium.dir/src/Robot.cpp.o CMakeFiles/c++Tutorium.dir/src/ScanAnalyzer.cpp.o
+/usr/bin/ranlib libc++Tutorium.a

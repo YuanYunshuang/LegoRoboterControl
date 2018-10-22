@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/StructsAndMore.h
+vector
+-
+string
+-
+
+/home/karola/ros_workspace/src/laserscannerTut/src/StructsAndMore.cpp
+StructsAndMore.h
+/home/karola/ros_workspace/src/laserscannerTut/src/StructsAndMore.h
+
